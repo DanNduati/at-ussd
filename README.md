@@ -1,7 +1,6 @@
 <h1 align="center"><b>AT-USSD</b></h1>
 
-## Setup
----
+## <b>Setup</b>
 
 ### 1. AT Developers account
 1. Create your AT developer [account](https://account.africastalking.com/)
@@ -19,7 +18,7 @@ cd AT-USSD/
 pip install -r requirements.txt
 ```
 ### Run the application
-I've implemented the application logic with 2 web frameworks flask and FastAPI you can select either.
+I've implemented the application logic with 2 web frameworks Flask and FastAPI you can select either.
 1. Flask
 #### Navigate to app directory
 ```bash
@@ -51,7 +50,7 @@ The following information is needed to create the channel:
     - `Callback URL` this is a public address that is invoked by the AT API when a subscriber dails the ussd code use the exposed ngrok public url
     In my case the service code is: `*384*069#`
 
-### 5. Outcome
+## <b>Outcome</b>
 | <img height="500" src="images/simulator_1.png"></img> 	| <img height="500" src="images/simulator_2.png"></img> 	|
 |:----------------------------------------------:	|:----------------------------------------------:	|
 | <img height="500" src="images/simulator_3.png"></img> 	| <img height="500" src="images/simulator_4.png"></img> 	|
