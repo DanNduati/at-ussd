@@ -52,3 +52,6 @@ The following information is needed to create the channel:
     In my case the service code is: `*384*069#`
 
 ### 5. Outcome
+| <img height="500" src="images/simulator_1.png"></img> 	| <img height="500" src="images/simulator_2.png"></img> 	|
+|:----------------------------------------------:	|:----------------------------------------------:	|
+| <img height="500" src="images/simulator_3.png"></img> 	| <img height="500" src="images/simulator_4.png"></img> 	|
