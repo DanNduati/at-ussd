@@ -11,8 +11,8 @@
 ### 2. Running app locally
 #### clone the repo and navigate into it
 ```bash
-git clone 
-cd 
+git clone git@github.com:DanNduati/AT-USSD.git
+cd AT-USSD/
 ```
 #### Install dependecies
 ```bash
