@@ -8,7 +8,7 @@
 3. [Go to Sandbox App](https://account.africastalking.com/apps/sandbox)
 
 ### 2. Running app locally
-#### clone the repo and navigate into it
+#### Clone the repo and navigate into it
 ```bash
 git clone git@github.com:DanNduati/AT-USSD.git
 cd AT-USSD/
@@ -17,23 +17,23 @@ cd AT-USSD/
 ```bash
 pip install -r requirements.txt
 ```
-### Run the application
+#### Run the application
 I've implemented the application logic with 2 web frameworks Flask and FastAPI you can select either.
 1. Flask
-#### Navigate to app directory
+##### Navigate to app directory
 ```bash
 cd flask_app/
 ```
-#### Start server
+##### Start server
 ```bash
 python app .py
 ```
 2. FastAPI
-#### Navigate to app directory
+##### Navigate to app directory
 ```bash
 cd fastapi_app/
 ```
-#### Start server
+##### Start server
 ```bash
 uvicorn main:app --reload
 ```
