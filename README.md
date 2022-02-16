@@ -55,3 +55,8 @@ The following information is needed to create the channel:
 | <img height="500" src="images/simulator_1.png"></img> 	| <img height="500" src="images/simulator_2.png"></img> 	|
 |:----------------------------------------------:	|:----------------------------------------------:	|
 | <img height="500" src="images/simulator_3.png"></img> 	| <img height="500" src="images/simulator_4.png"></img> 	|
+
+## Todo 
+- [ ] Improve menu logic and navigation
+- [ ] Add mpesa STK-Push 
+- [ ] Improve exception handling
