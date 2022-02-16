@@ -38,7 +38,12 @@ def process_response(resp: str):
     return response
 
 
-@app.route("/", methods=['POST', 'GET'])
+@app.route("/")
+def root():
+    return {"message": "Hello USSD!"}
+
+
+@app.route("/callback/", methods=['POST', 'GET'])
 def ussd_callback():
     session_id: str = request.values.get("sessionId", None)
     service_code = request.values.get("serviceCode", None)
@@ -50,4 +55,4 @@ def ussd_callback():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000, debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
