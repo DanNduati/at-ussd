@@ -1,5 +1,6 @@
 <h1 align="center"><b>AT-USSD</b></h1>
 
+[AT-USSD background](AT-USSD.md)
 ## <b>Setup</b>
 
 ### 1. AT Developers account
@@ -7,11 +8,11 @@
 2. Login to AT developer account
 3. [Go to Sandbox App](https://account.africastalking.com/apps/sandbox)
 
-### 2. Running app locally
+### 2. Running apps locally
 #### Clone the repo and navigate into it
 ```bash
 git clone git@github.com:DanNduati/AT-USSD.git
-cd AT-USSD/
+cd at-ussd/
 ```
 #### Install dependecies
 ```bash
